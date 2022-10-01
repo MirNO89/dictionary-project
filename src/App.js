@@ -13,7 +13,7 @@ export default function App() {
         </header>
         <footer>
           <a
-            href="https://github.com/MirNO89/new-react-weather"
+            href="https://github.com/MirNO89/dictionary-project"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -21,7 +21,7 @@ export default function App() {
           </a>{" "}
           by Miriam MK, hosted on{" "}
           <a
-            href="https://amazing-sorbet-18c88b.netlify.app"
+            href="https://moonlit-shortbread-3e7fc8.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -2,7 +2,7 @@ import React from "react";
 
 import Dictionary from "./Dictionary";
 
-import logo from "./logo-shecodes.png";
+import searching from "./Searching.svg";
 
 import "./App.css";
 
@@ -11,7 +11,12 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="shecodes-logo" />
+          <img
+            src={searching}
+            className="App-logo img-fluid"
+            alt="searching-logo"
+          />
+          <h1>Dictionary</h1>
         </header>
         <main>
           <Dictionary />

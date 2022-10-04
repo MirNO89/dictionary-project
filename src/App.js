@@ -1,5 +1,7 @@
 import React from "react";
 
+import Dictionary from "./Dictionary";
+
 import logo from "./logo-shecodes.png";
 
 import "./App.css";
@@ -11,7 +13,10 @@ export default function App() {
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="shecodes-logo" />
         </header>
-        <footer>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
           <a
             href="https://github.com/MirNO89/dictionary-project"
             target="_blank"

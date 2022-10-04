@@ -14,7 +14,8 @@ export default function App() {
           <img
             src={searching}
             className="App-logo img-fluid"
-            alt="searching-logo"
+            alt="logo"
+            width={150}
           />
           <h1>Dictionary</h1>
         </header>

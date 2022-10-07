@@ -11,12 +11,15 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img
-            src={searching}
-            className="App-logo img-fluid"
-            alt="logo"
-            width={200}
-          />
+          <h1>
+            <img
+              src={searching}
+              className="App-logo img-fluid"
+              alt="logo"
+              width={200}
+            />
+            DICTIONARY
+          </h1>
         </header>
         <main>
           <Dictionary defaultKeyword="dictionary" />

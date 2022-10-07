@@ -28,7 +28,7 @@ export default function Dictionary(props) {
     // documentation: https://www.pexels.com/api/documentation/#photos-search
     const pexelsApiKey =
       "563492ad6f917000010000017e52e7455c0e4604a040cd0860bf5db4";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
@@ -51,7 +51,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <h1>What word would you like to look up?</h1>
+          <h4>What word would you like to look up?</h4>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
@@ -59,9 +59,7 @@ export default function Dictionary(props) {
               defaultValue={props.defaultKeyword}
             />
           </form>
-          <div className="hint">
-            suggested words: sunset, wine, yoga, plant...
-          </div>
+          <div className="hint">e.g. wine, dance, flabbergasted, sunset...</div>
         </section>
         <Results results={results} />
         <Photos photos={photos} />
@@ -69,6 +67,6 @@ export default function Dictionary(props) {
     );
   } else {
     load();
-    return "Loading";
+    return "Loading the application...";
   }
 }

@@ -3,13 +3,7 @@
   margin: 0 auto;
 }
 .App-header {
-  margin: 30px 0;
-}
-
-.App-logo {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
+  margin: 20px 0;
 }
 
 .App-footer {
@@ -20,4 +14,10 @@
 
 .App a {
   color: #85cdde;
+}
+
+
+.App h1 {
+  text-align: center;
+  color: #083F68;
 }

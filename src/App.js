@@ -15,12 +15,11 @@ export default function App() {
             src={searching}
             className="App-logo img-fluid"
             alt="logo"
-            width={150}
+            width={200}
           />
-          <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="dictionary" />
         </main>
         <footer className="App-footer">
           <a
